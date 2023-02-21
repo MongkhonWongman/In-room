@@ -63,5 +63,8 @@ export const router = createBrowserRouter([
   {
     path: `${HOME_PAGE_LOCAL}/Reload-page`,
     element: <RELOAD />
-  }
+  },
+
+  // PAGE SETTING
+  
 ]);
