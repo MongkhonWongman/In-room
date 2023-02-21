@@ -1,0 +1,11 @@
+.Box-body-loading{
+    /* background-color: aqua; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.Box-body-loading img{
+    width: 100%;
+}

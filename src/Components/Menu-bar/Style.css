@@ -1,0 +1,36 @@
+.Body-menu-bar{
+    display: flex;
+    max-width: 40rem;
+    flex-direction: row;
+    
+    /* background-color: aliceblue; */
+}
+
+.Menu-columns{
+
+}
+
+.Button-menu{
+    /* background-color: rgb(255, 255, 255); */
+    /* height: 70px;
+    width: 70px;
+    font-size: 85%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* color: rgb(255, 255, 255); */
+    /* background-color: red; */
+    text-align: center;
+}
+
+.Button-link-menu{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.Icon-menu{
+    width: 35%;
+
+}

@@ -1,0 +1,9 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* อุปกรณ์ขนาดเล็ก (แท็บเล็ตแนวตั้งและโทรศัพท์ขนาดใหญ่ 600px ขึ้นไป) */
+@media only screen and (min-width: 600px) {
+
+    .BOX-DETAIL{
+        background-color: #8b3363;
+    }
+
+}

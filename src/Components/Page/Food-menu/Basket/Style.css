@@ -1,0 +1,52 @@
+@import url(./Screen-600px.css);
+@import url(./Screen-768px.css);
+@import url(./Screen-992px.css);
+@import url(./Screen-1920px.css);
+
+.Body-page-basket{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+
+.Box-button-confirm button{
+    width: 100%;
+}
+
+
+.Box-detail-basket{
+    height: 80vh;
+    padding: 3%;
+    overflow: auto;
+
+}
+
+.Box-detail-basket hr{
+    color: rgb(194, 194, 194);
+}
+
+.Display-food-qty{
+    font-size: 85%;
+    color: rgb(24, 135, 209);
+}
+
+.Display-food-name{
+    font-size: 83%;
+}
+
+.Display-food-price{
+    float: right;
+}
+
+.Display-food-comment{
+    font-size: 77%;
+}
+
+.Box-button-edit-food{
+    text-align: right;
+    /* background-color: red; */
+  }
+  
+  .Box-button-edit-food .btn-warning{
+    font-size: 75%;
+  }

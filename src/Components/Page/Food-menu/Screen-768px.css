@@ -1,0 +1,193 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .Body-page-menu-food{
+        height: auto;
+        background-color: rgb(248, 248, 248);
+    }
+    
+    #Heard-menu-title{
+        background-color: rgb(255, 255, 255);
+        padding: 2%;
+        height: auto;
+        box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    }
+    
+    
+    .Heard-menu-title {
+        position: sticky; 
+        position: -webkit-sticky; 
+        z-index: 1;
+        height: 40px;
+        top: 0; 
+      
+    }
+  
+      
+    .sections{
+        height: 100px;
+        margin-bottom: 20px;
+        text-align: center;
+        background-color: aqua;
+    }
+    
+    
+    .Box-menu-food{
+        background-color: aliceblue;
+    
+    }
+    
+    .Box-detail-menu-food{
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .Box-detail-menu-food img{
+      border-radius: 8px;
+      width: 100%;
+    }
+    
+    .Text-price-menu{
+        color: rgb(0, 0, 0);
+        font-size: 80%;
+    }
+    
+    .Input-search-menu{
+        background-color: rgb(243, 243, 243);
+        border: 0;
+        border-radius: 15px;
+        width: 10;
+    }
+    
+    .Dropdow-search-menu{
+        background-color: rgb(243, 243, 243);
+        border: 0;
+    
+    }
+    
+    .Dropdow-search-menu:hover{
+        /* background-color: rgb(243, 243, 243); */
+    }
+    
+    .Button-search-menu{
+        border-radius: 15px;
+    }
+    
+    
+    
+    
+    /* The Modal (background) */
+  .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      -webkit-animation-name: fadeIn; /* Fade in the background */
+      -webkit-animation-duration: 0.4s;
+      animation-name: fadeIn;
+      animation-duration: 0.4s
+    }
+    
+    /* Modal Content */
+    .modal-content {
+      position: fixed;
+      bottom: 0px;
+      background-color: #ffffff;
+      width: 100%;
+      -webkit-animation-name: slideIn;
+      -webkit-animation-duration: 0.4s;
+      animation-name: slideIn;
+      animation-duration: 0.4s;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      height: 70vh;
+      overflow: auto;
+  
+    }
+    
+    /* The Close Button */
+    .close {
+      color: white;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .modal-body hr{
+      color: rgb(199, 199, 199);
+    }
+    
+    
+    /* Add Animation */
+    @-webkit-keyframes slideIn {
+      from {bottom: -300px; opacity: 0} 
+      to {bottom: 0; opacity: 1}
+    }
+    
+    @keyframes slideIn {
+      from {bottom: -300px; opacity: 0}
+      to {bottom: 0; opacity: 1}
+    }
+    
+    @-webkit-keyframes fadeIn {
+      from {opacity: 0} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fadeIn {
+      from {opacity: 0} 
+      to {opacity: 1}
+    }
+  
+  
+    .Body-type-list{
+      background-color: rgb(255, 255, 255);
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+  
+    .Body-type-list hr{
+      margin-left: 10px;
+      margin-right: 10px;
+      color: rgb(201, 201, 201);
+    }
+  
+    .Box-show-basket .btn-primary{
+      width: 100%;
+    }
+  
+    .Box-show-basket{
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      position: sticky; 
+      z-index: 1;
+      bottom: 0;
+      padding: 3%;
+      text-align: center;
+    }
+  
+    .Box-show-basket .Basket-detail-left{
+        float: left;
+    }
+  
+    .Box-show-basket .Basket-detail-right{
+        float: right;
+    }
+
+}

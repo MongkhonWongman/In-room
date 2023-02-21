@@ -1,0 +1,52 @@
+@import url(./Screen-600px.css);
+@import url(./Screen-min-width-768px.css);
+@import url(./Screen-min-width-992px.css);
+
+.Body-page{
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+
+.Button-link-menu{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.Box-detail-service-home{
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+
+}
+
+.card-title{
+    font-size: 80%;
+    color: #333f8b;
+}
+
+.card-img-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-text{
+    font-size: 69%;
+    color: rgb(160, 160, 160);
+}
+
+.Tiele-page{
+    font-size: 110%;
+    color: #333f8b;
+    padding-bottom: 10px;
+}
+
+.Box-button-page-home{
+    /* height: 85vh;
+    overflow: auto;
+    padding-bottom: 5%; */
+}

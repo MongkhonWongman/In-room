@@ -1,0 +1,12 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .Box-detail-service-home{
+        height: 29vh;
+    }
+
+    /* .Box-detail-service-home img{
+        width: 28vw;
+    } */
+
+}

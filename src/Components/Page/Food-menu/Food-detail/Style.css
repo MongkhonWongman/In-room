@@ -1,0 +1,10 @@
+@import url(./Screen-600px.css);
+@import url(./Screen-768px.css);
+@import url(./Screen-1920px.css);
+
+
+.Body-food-detail{
+    background-color: #f1f1f1;
+    height: 100vh;
+}
+

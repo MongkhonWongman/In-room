@@ -1,0 +1,41 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1920px) {
+
+  .Box-head-basket-{
+    padding: 1%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+  .Box-button-confirm{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    padding: 1%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* text-align: center; */
+}
+
+.Box-button-confirm button{
+    width: 100%;
+}
+
+.Box-button-confirm .Detail-confirm-right{
+    float: right;
+    padding-bottom: 1%;
+}
+
+.Box-button-confirm .Detail-confirm-right{
+  float: right;
+  padding-bottom: 1%;
+}
+
+
+.Box-head-basket-{
+  padding: 1%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+
+}

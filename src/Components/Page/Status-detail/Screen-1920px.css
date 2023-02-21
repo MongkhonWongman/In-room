@@ -1,0 +1,16 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1920px) {
+
+    .Head-status-detail{
+        background-color: rgb(255, 255, 255);
+        padding: 1%;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    }
+
+
+    .Card-detail{
+        margin-top: 1%;
+        padding:1%;
+    }
+
+}

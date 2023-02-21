@@ -1,0 +1,21 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+        .Head-status-detail{
+        background-color: rgb(255, 255, 255);
+        padding: 3%;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    }
+
+    .Card-detail{
+        margin-top: 2%;
+        padding: 2%;
+    }
+
+    .Box-cancel-service button{
+
+        height: 4vh;
+        font-size: 95%;
+    }
+
+}

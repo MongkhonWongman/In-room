@@ -1,0 +1,50 @@
+@import url(./Screen-1920px.css);
+@import url(./Screen-768px.css);
+@import url(./Screen-600px.css);
+
+.Body-status-detail{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+.Box-status-detail{
+    padding: 1%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    overflow: auto;
+    height: 93.1vh;
+    /* background-color: rgb(250, 250, 250); */
+
+}
+
+.Box-status-detail hr{
+    color: rgb(196, 196, 196);
+}
+
+.Card-detail{
+    box-shadow: rgba(0, 0, 0, 0.062) 0px 0px 5px 0px, rgba(0, 0, 0, 0.082) 0px 0px 1px 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    
+}
+
+.Box-detail-id{
+    font-size: 75%;
+}
+
+.Status-display{
+    float: right;
+    font-size: 75%;
+}
+
+.Display-date-time-service{
+    color: rgb(145, 145, 145);
+    font-size: 70%;
+}
+
+.Display-service-status{
+    color: rgb(121, 121, 121);
+    float: right;
+    font-size: 85%;
+
+}

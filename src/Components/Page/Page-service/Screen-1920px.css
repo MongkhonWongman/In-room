@@ -1,0 +1,168 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1920px) {
+
+/* @media only screen and (min-width: 1200px) { */
+
+    .Tiele-page{
+        font-size: 160%;
+    }
+
+    .Title-detail-food-on {
+        font-size: 130%;
+    }
+
+    .card-title{
+        font-size: 105%;
+    }
+
+    .Box-alert-service{
+        position: absolute;
+        right: 45%;
+        z-index: 1;
+    }
+
+    .Box-alert-service img{
+        float: right;
+        width: 35%;
+    }
+
+
+
+    .Box-icon-select-service img{
+        width: 40%;
+    }
+
+    .Background-page{
+        width: auto;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        /* height: 50vh; */
+    }
+
+    .Box-detail-service{
+
+        display: flex;                  /* establish flex container */
+        flex-direction: row;            /* default value; can be omitted */
+        flex-wrap: nowrap;              /* default value; can be omitted */
+        justify-content: space-between; /* switched from default (flex-start, see below) */
+        height: 70vh;
+        /* background-color: aqua; */
+
+    }
+
+    .Card-body{
+        text-align: center;
+        color: rgb(78, 78, 78);
+        /* background-color: aqua; */
+    }
+
+    .Box-service{
+        height: 70vh;
+    }
+
+    .Box-Button-add-service{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .Button-add-service{
+        width: 80%;
+        height: 50px;
+        background-color: #333f8b;
+        color: #ffffff;
+        border: 0;
+        
+    }
+
+    .Button-add-service:focus{
+        background-color: #333f8bc7;
+        color: #ffffff;
+    }
+
+
+    .Box-select-detail{
+        margin: auto;
+        margin-top: 5%;
+    }
+
+
+    /* visit summary */
+
+    .Box-detail-visit{
+        display: flex;                  /* establish flex container */
+        flex-direction: row;            /* default value; can be omitted */
+        flex-wrap: nowrap;              /* default value; can be omitted */
+        justify-content: space-between; /* switched from default (flex-start, see below) */
+        height: 55vh;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 110%;
+    }
+
+    .Txt-show-visit-title{
+        font-size: 145%;
+    }
+
+    .Title-detail-visit{
+        font-size: 120%;
+        margin-bottom: 10%;
+    }
+    
+    .Box-date-visit{
+        text-align: center;
+        color: rgb(168, 168, 168);
+        /* margin-top: 3%; */
+        margin-bottom: 5%;
+    }
+    
+    
+    .Box-heard-visit{
+        display: flex;
+        flex-direction:row;
+        padding: 1%;
+        /* margin-top: 2%; */
+    }
+    
+    .column{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        width: 10%;
+
+    }
+    
+    .Button-show-visit-left{
+        /* padding: 2%; */
+        background: rgba(255, 187, 0, 0.24);
+
+        /* width: 20%; */
+    }
+    
+    .Txt-show-visit-title{
+        width: 100%;
+    }
+    
+    .Button-show-visit-right{
+        background: rgba(60, 255, 0, 0.24);
+    }
+    
+    .Button-show-visit-left, .Button-show-visit-right{
+        height: 45px;
+        border-radius: 10px;
+        color: #000000;
+        font-size: 80%;
+    }
+
+    
+    .Box-show-input button{
+        width: 100%;
+        height: 5vh;
+    }
+
+    .Box-basket-page-service{
+        margin-top: 0.5%;
+    }
+
+
+}
